@@ -1,0 +1,24 @@
+== DSS Advanced webinar 
+
+This repository contains the used source code for the DSS Advanced webinar : https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Esignature+DSS+Webinar+June+2021
+
+The webinar was recorded and should be added shortly on this YouTube chanel : https://www.youtube.com/playlist?list=PLPMb0otsCuFJChkw1jlycPqhfbj-9EZe9
+
+All code samples are based on DSS 5.8.
+
+===== List of samples :
+
+[horizontal]
+Init_Download_PKI_Files:: download needed resources
+Sample_01_JaxbModuleTest:: how to use of the JAXB modules to marshall/unmarshall/validate
+Sample_02_ReportGenerationTest:: how to generate HTML / PDF reports with the XML Stylesheets
+Sample_03_CompositeTimestampSourceTest:: how to configure DSS with several timestamp services
+Sample_04_VisualSignatureTest:: how to create a visual signature
+Sample_05_CertificateVerifierConfigurationTest:: how to configure the CertificateVerifier
+Sample_06_TrustAnchorConfigurationTest:: how to configure the trust anchors
+Sample_07_CertificateValidationTest:: how to validate a certificate
+Sample_08_TimestampValidationTest:: how to validate a timestamp token
+Sample_09_InternationalizationTest:: how to translate the validation reports
+Sample_10_SOAP_REST_ClientsTest:: how to request webservices from the https://ec.europa.eu/cefdigital/artifact/repository/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-demo-bundle/5.8/dss-demo-bundle-5.8.zip[DSS Demonstration Bundle 5.8]
+Sample_11_DigestSignatureTest:: how to create a raw signature with DSS
+Sample_12_TrustedListSignatureTest:: how to sign quickly a Trusted List

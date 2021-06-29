@@ -1,0 +1,178 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>eu.europa.cef.esig</groupId>
+	<artifactId>webinar</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>15</maven.compiler.release>
+
+		<dss.version>5.8</dss.version>
+		<junit.platform.version>1.7.2</junit.platform.version>
+		<junit.jupiter.version>5.7.2</junit.jupiter.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>cefdigital</id>
+			<name>cefdigital</name>
+			<url>https://ec.europa.eu/cefdigital/artifact/content/repositories/esignaturedss/</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>specs-trusted-list</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-pades-pdfbox</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-xades</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-token</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-utils-apache-commons</artifactId> <!-- or dss-utils-google-guava -->
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-crl-parser-stream</artifactId> <!-- or dss-crl-parser-x509crl -->
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-tsl-validation</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-common-remote-converter</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-signature-soap</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-signature-rest-client</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-service</artifactId>
+			<version>${dss.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.xmlgraphics</groupId>
+			<artifactId>fop-core</artifactId>
+			<version>2.5</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
+				<exclusion>
+					<groupId>xalan</groupId>
+					<artifactId>xalan</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>javax.servlet</groupId>
+					<artifactId>servlet-api</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.ant</groupId>
+					<artifactId>ant</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>xml-apis</groupId>
+					<artifactId>xml-apis</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>3.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>3.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-rs-client</artifactId>
+			<version>3.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-features-logging</artifactId>
+			<version>3.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.jaxrs</groupId>
+			<artifactId>jackson-jaxrs-json-provider</artifactId>
+			<version>2.12.3</version>
+		</dependency>
+
+
+		<!-- Replace commons-logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<version>${junit.platform.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>${junit.jupiter.version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

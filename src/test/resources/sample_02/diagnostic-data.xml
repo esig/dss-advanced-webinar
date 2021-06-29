@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DiagnosticData xmlns="http://dss.esig.europa.eu/validation/diagnostic">
+    <DocumentName>hello-signed-pades-baseline-b.pdf</DocumentName>
+    <ValidationDate>2021-06-14T12:49:49</ValidationDate>
+    <Signatures>
+        <Signature Id="S-69E43B1C8D80929B10DD6DB8ED01AB0C616E75EA4B495B5F49C6D2DA054DB113">
+            <SignatureFilename>hello-signed-pades-baseline-b.pdf</SignatureFilename>
+            <ClaimedSigningTime>2021-02-10T15:34:36</ClaimedSigningTime>
+            <SignatureFormat>PAdES-BASELINE-B</SignatureFormat>
+            <StructuralValidation valid="true"/>
+            <DigestMatchers>
+                <DigestMatcher type="MESSAGE_DIGEST">
+                    <DigestMethod>SHA256</DigestMethod>
+                    <DigestValue>GSTM6NAASmHFyYjMIgKcKrBS7xNjzhR5HWJZQJyr3Nc=</DigestValue>
+                    <DataFound>true</DataFound>
+                    <DataIntact>true</DataIntact>
+                </DigestMatcher>
+            </DigestMatchers>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>2048</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-4FAB29027727E58E4518ED0B6AE554D055F05B3D9197E0D16B20028D227D1A9F"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-4FAB29027727E58E4518ED0B6AE554D055F05B3D9197E0D16B20028D227D1A9F"/>
+                <ChainItem Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <ContentType>1.2.840.113549.1.7.1</ContentType>
+            <CommitmentTypeIndications/>
+            <SignerInformationStore>
+                <SignerInfo Current="true">
+                    <IssuerName>SERIALNUMBER=201631, CN=Citizen CA, C=BE</IssuerName>
+                    <SerialNumber>21267647932559346000444903846468827673</SerialNumber>
+                </SignerInfo>
+            </SignerInformationStore>
+            <PDFRevision>
+                <SignatureFieldName>Signature1</SignatureFieldName>
+                <PDFSignatureDictionary>
+                    <Type>Sig</Type>
+                    <Filter>Adobe.PPKLite</Filter>
+                    <SubFilter>ETSI.CAdES.detached</SubFilter>
+                    <SignatureByteRange>0 28342 66232 776</SignatureByteRange>
+                </PDFSignatureDictionary>
+            </PDFRevision>
+            <SignerDocumentRepresentations HashOnly="false" DocHashOnly="false"/>
+            <FoundCertificates>
+                <RelatedCertificate Certificate="C-4FAB29027727E58E4518ED0B6AE554D055F05B3D9197E0D16B20028D227D1A9F">
+                    <Origin>SIGNED_DATA</Origin>
+                    <CertificateRef>
+                        <Origin>SIGNING_CERTIFICATE</Origin>
+                        <IssuerSerial match="true">MEswN6Q1MDMxCzAJBgNVBAYTAkJFMRMwEQYDVQQDEwpDaXRpemVuIENBMQ8wDQYDVQQFEwYyMDE2MzECEBAAAAAAAJKLPMkehMM6uhk=</IssuerSerial>
+                        <DigestAlgoAndValue match="true">
+                            <DigestMethod>SHA256</DigestMethod>
+                            <DigestValue>T6spAncn5Y5FGO0LauVU0FXwWz2Rl+DRayACjSJ9Gp8=</DigestValue>
+                        </DigestAlgoAndValue>
+                    </CertificateRef>
+                </RelatedCertificate>
+                <RelatedCertificate Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA">
+                    <Origin>SIGNED_DATA</Origin>
+                </RelatedCertificate>
+            </FoundCertificates>
+            <FoundRevocations/>
+            <FoundTimestamps/>
+            <SignatureScopes>
+                <SignatureScope SignerData="D-A8B2C530A0A1FA6A9394FAE46E4142EE8337EF223EF916D9E645EC63CDEF1774">
+                    <Scope>FULL</Scope>
+                    <Name>Full PDF</Name>
+                    <Description>Full document</Description>
+                </SignatureScope>
+            </SignatureScopes>
+            <SignatureDigestReference>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>zliRb1o/HVV+gDZ9kv79rX+thD5glDgzrUorJ+KMNbc=</DigestValue>
+            </SignatureDigestReference>
+            <DataToBeSignedRepresentation>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>U5+D4jVH9YngFB3S4p3uCpTB9IqEiQzhhbIgnn2iHSY=</DigestValue>
+            </DataToBeSignedRepresentation>
+            <SignatureValue>3ZPfB+jHqbfsFhfjSRlBbTkfyKKLPs1NF/3CxP1nOHdv14Dk7Mdkksek3StGN0cFFZUZMGbusmGive+99ElPvIXud6b76LQWrN/BKdmKfzCpPjT92VlVJ4t4zDt5XtBoXiPAljmkdbHE1iSZNkVMtSszlQg2f6mJM/m7lU952E123Wd8RLAYi0FeyfdsyZzCHJdN4IXdkvpVuSx5NrE8A5tDmYeXQMi1WvwzGER+me94zwf04k2eVft0VJbVTPQDSUVHU6DheQCZEbZmkH4B0sIYGA1elW/jPSurDgTEMPIC/0FpKmIcCOrFZKC++hSv+GHt8Z49XjIAA+hjN72itA==</SignatureValue>
+        </Signature>
+    </Signatures>
+    <UsedCertificates>
+        <Certificate Id="C-1F9F6FF07F0B9DD51F03FAD50C28825888F1157B7C6B6A71CE9F935ED1D4616E">
+            <SubjectDistinguishedName Format="CANONICAL">c=be,cn=belgium ocsp responder</SubjectDistinguishedName>
+            <SubjectDistinguishedName Format="RFC2253">C=BE,CN=Belgium OCSP Responder</SubjectDistinguishedName>
+            <IssuerDistinguishedName Format="CANONICAL">2.5.4.5=#1306323031363331,cn=citizen ca,c=be</IssuerDistinguishedName>
+            <IssuerDistinguishedName Format="RFC2253">2.5.4.5=#1306323031363331,CN=Citizen CA,C=BE</IssuerDistinguishedName>
+            <SerialNumber>4835703278460122496610542</SerialNumber>
+            <CommonName>Belgium OCSP Responder</CommonName>
+            <CountryName>BE</CountryName>
+            <AuthorityInformationAccessUrls/>
+            <CRLDistributionPoints/>
+            <OCSPAccessUrls/>
+            <Sources>
+                <Source>OCSP_RESPONSE</Source>
+            </Sources>
+            <NotAfter>2022-01-29T11:00:00</NotAfter>
+            <NotBefore>2020-12-10T11:00:00</NotBefore>
+            <PublicKeySize>2048</PublicKeySize>
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>
+            <EntityKey>PK-4D4C09A0BFD51D966BB4DC9E2A85922A11EA0FC6DE25F394002426F0422E7F60</EntityKey>
+            <KeyUsageBits>
+                <KeyUsage>digitalSignature</KeyUsage>
+            </KeyUsageBits>
+            <ExtendedKeyUsages>
+                <extendedKeyUsagesOid Description="ocspSigning">1.3.6.1.5.5.7.3.9</extendedKeyUsagesOid>
+            </ExtendedKeyUsages>
+            <IdPkixOcspNoCheck>true</IdPkixOcspNoCheck>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>4096</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <Trusted>false</Trusted>
+            <SelfSigned>false</SelfSigned>
+            <CertificatePolicies/>
+            <QCStatementIds/>
+            <QCTypes/>
+            <TrustedServiceProviders>
+                <TrustedServiceProvider TL="TL-61C0487109BE27255C19CFF26D8F56BEA621E7F381A7B4CBE7FB4750BD477BF9" LOTL="LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B">
+                    <TSPNames>
+                        <TSPName lang="en">Certipost n.v./s.a.</TSPName>
+                    </TSPNames>
+                    <TSPTradeNames>
+                        <TSPTradeName lang="en">Certipost s.a./n.v.</TSPTradeName>
+                    </TSPTradeNames>
+                    <TSPRegistrationIdentifiers>
+                        <TSPRegistrationIdentifier>VATBE-0475396406</TSPRegistrationIdentifier>
+                    </TSPRegistrationIdentifiers>
+                    <TrustedServices>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</Status>
+                            <StartDate>2016-06-30T22:00:00</StartDate>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                    </TrustedServices>
+                </TrustedServiceProvider>
+            </TrustedServiceProviders>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>H59v8H8LndUfA/rVDCiCWIjxFXt8a2pxzp+TXtHUYW4=</DigestValue>
+            </DigestAlgoAndValue>
+        </Certificate>
+        <Certificate Id="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA">
+            <SubjectDistinguishedName Format="CANONICAL">2.5.4.5=#1306323031363331,cn=citizen ca,c=be</SubjectDistinguishedName>
+            <SubjectDistinguishedName Format="RFC2253">2.5.4.5=#1306323031363331,CN=Citizen CA,C=BE</SubjectDistinguishedName>
+            <IssuerDistinguishedName Format="CANONICAL">cn=belgium root ca4,c=be</IssuerDistinguishedName>
+            <IssuerDistinguishedName Format="RFC2253">CN=Belgium Root CA4,C=BE</IssuerDistinguishedName>
+            <SerialNumber>31132611405554350463745259366034815060</SerialNumber>
+            <SubjectSerialNumber>201631</SubjectSerialNumber>
+            <CommonName>Citizen CA</CommonName>
+            <CountryName>BE</CountryName>
+            <AuthorityInformationAccessUrls/>
+            <CRLDistributionPoints>
+                <crlUrl>http://crl.eid.belgium.be/belgium4.crl</crlUrl>
+            </CRLDistributionPoints>
+            <OCSPAccessUrls/>
+            <Sources>
+                <Source>OCSP_RESPONSE</Source>
+                <Source>SIGNATURE</Source>
+            </Sources>
+            <NotAfter>2027-07-25T10:00:00</NotAfter>
+            <NotBefore>2015-11-25T10:00:00</NotBefore>
+            <PublicKeySize>4096</PublicKeySize>
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>
+            <EntityKey>PK-490F57DD2D327C98CFE3D09E8E54C0B30DBBFD3669681C1013F79F4A6ADD09AC</EntityKey>
+            <KeyUsageBits>
+                <KeyUsage>keyCertSign</KeyUsage>
+                <KeyUsage>crlSign</KeyUsage>
+            </KeyUsageBits>
+            <ExtendedKeyUsages/>
+            <IdPkixOcspNoCheck>false</IdPkixOcspNoCheck>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>4096</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <Trusted>false</Trusted>
+            <SelfSigned>false</SelfSigned>
+            <CertificatePolicies>
+                <certificatePolicy cpsUrl="http://repository.eid.belgium.be">2.16.56.12.1.1.2</certificatePolicy>
+            </CertificatePolicies>
+            <QCStatementIds/>
+            <QCTypes/>
+            <TrustedServiceProviders>
+                <TrustedServiceProvider TL="TL-61C0487109BE27255C19CFF26D8F56BEA621E7F381A7B4CBE7FB4750BD477BF9" LOTL="LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B">
+                    <TSPNames>
+                        <TSPName lang="en">Certipost n.v./s.a.</TSPName>
+                    </TSPNames>
+                    <TSPTradeNames>
+                        <TSPTradeName lang="en">Certipost s.a./n.v.</TSPTradeName>
+                    </TSPTradeNames>
+                    <TSPRegistrationIdentifiers>
+                        <TSPRegistrationIdentifier>VATBE-0475396406</TSPRegistrationIdentifier>
+                    </TSPRegistrationIdentifiers>
+                    <TrustedServices>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</Status>
+                            <StartDate>2016-06-30T22:00:00</StartDate>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/undersupervision</Status>
+                            <StartDate>2013-06-26T12:00:00</StartDate>
+                            <EndDate>2016-06-30T22:00:00</EndDate>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                    </TrustedServices>
+                </TrustedServiceProvider>
+            </TrustedServiceProviders>
+            <Revocations>
+                <CertificateRevocation Revocation="R-DC2FFAFB51BA8041828C2C7E58B7AB45BCE81C4916F95892568C523C537F0756">
+                    <Status>GOOD</Status>
+                </CertificateRevocation>
+            </Revocations>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>KT0Lo6MeXYKo4/rhJwmTL/3aREI+D3M/sB7xI+c+tNo=</DigestValue>
+            </DigestAlgoAndValue>
+        </Certificate>
+        <Certificate Id="C-4FAB29027727E58E4518ED0B6AE554D055F05B3D9197E0D16B20028D227D1A9F">
+            <SubjectDistinguishedName Format="CANONICAL">2.5.4.5=#130b3837303132373330373338,2.5.4.42=#130d506965727269636b205061636f,2.5.4.4=#130d56616e64656e62726f75636b65,cn=pierrick vandenbroucke (signature),c=be</SubjectDistinguishedName>
+            <SubjectDistinguishedName Format="RFC2253">2.5.4.5=#130b3837303132373330373338,2.5.4.42=#130d506965727269636b205061636f,2.5.4.4=#130d56616e64656e62726f75636b65,CN=Pierrick Vandenbroucke (Signature),C=BE</SubjectDistinguishedName>
+            <IssuerDistinguishedName Format="CANONICAL">2.5.4.5=#1306323031363331,cn=citizen ca,c=be</IssuerDistinguishedName>
+            <IssuerDistinguishedName Format="RFC2253">2.5.4.5=#1306323031363331,CN=Citizen CA,C=BE</IssuerDistinguishedName>
+            <SerialNumber>21267647932559346000444903846468827673</SerialNumber>
+            <SubjectSerialNumber>87012730738</SubjectSerialNumber>
+            <CommonName>Pierrick Vandenbroucke (Signature)</CommonName>
+            <CountryName>BE</CountryName>
+            <GivenName>Pierrick Paco</GivenName>
+            <Surname>Vandenbroucke</Surname>
+            <AuthorityInformationAccessUrls>
+                <aiaUrl>http://certs.eid.belgium.be/belgiumrs4.crt</aiaUrl>
+            </AuthorityInformationAccessUrls>
+            <CRLDistributionPoints>
+                <crlUrl>http://crl.eid.belgium.be/eidc201631.crl</crlUrl>
+            </CRLDistributionPoints>
+            <OCSPAccessUrls>
+                <ocspServerUrl>http://ocsp.eid.belgium.be/2</ocspServerUrl>
+            </OCSPAccessUrls>
+            <Sources>
+                <Source>SIGNATURE</Source>
+            </Sources>
+            <NotAfter>2027-01-21T23:59:59</NotAfter>
+            <NotBefore>2017-01-25T22:12:12</NotBefore>
+            <PublicKeySize>2048</PublicKeySize>
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>
+            <EntityKey>PK-89D4C291843414CFB5E13D00B17CC57CD50E9FEAB6230AE5535C239AFB595681</EntityKey>
+            <KeyUsageBits>
+                <KeyUsage>nonRepudiation</KeyUsage>
+            </KeyUsageBits>
+            <ExtendedKeyUsages/>
+            <IdPkixOcspNoCheck>false</IdPkixOcspNoCheck>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>4096</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <Trusted>false</Trusted>
+            <SelfSigned>false</SelfSigned>
+            <CertificatePolicies>
+                <certificatePolicy cpsUrl="http://repository.eid.belgium.be">2.16.56.12.1.1.2.1</certificatePolicy>
+            </CertificatePolicies>
+            <QCStatementIds>
+                <qcStatementOid Description="qc-compliance">0.4.0.1862.1.1</qcStatementOid>
+                <qcStatementOid Description="qc-sscd">0.4.0.1862.1.4</qcStatementOid>
+            </QCStatementIds>
+            <QCTypes/>
+            <TrustedServiceProviders>
+                <TrustedServiceProvider TL="TL-61C0487109BE27255C19CFF26D8F56BEA621E7F381A7B4CBE7FB4750BD477BF9" LOTL="LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B">
+                    <TSPNames>
+                        <TSPName lang="en">Certipost n.v./s.a.</TSPName>
+                    </TSPNames>
+                    <TSPTradeNames>
+                        <TSPTradeName lang="en">Certipost s.a./n.v.</TSPTradeName>
+                    </TSPTradeNames>
+                    <TSPRegistrationIdentifiers>
+                        <TSPRegistrationIdentifier>VATBE-0475396406</TSPRegistrationIdentifier>
+                    </TSPRegistrationIdentifiers>
+                    <TrustedServices>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</Status>
+                            <StartDate>2016-06-30T22:00:00</StartDate>
+                            <CapturedQualifiers>
+                                <Qualifier>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert</Qualifier>
+                            </CapturedQualifiers>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                    </TrustedServices>
+                </TrustedServiceProvider>
+            </TrustedServiceProviders>
+            <Revocations>
+                <CertificateRevocation Revocation="R-75C329C7270B2B49AB18758C37E551E4307D4CA84C35AFED09AEE20C0B0DDFD0">
+                    <Status>GOOD</Status>
+                </CertificateRevocation>
+            </Revocations>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>T6spAncn5Y5FGO0LauVU0FXwWz2Rl+DRayACjSJ9Gp8=</DigestValue>
+            </DigestAlgoAndValue>
+        </Certificate>
+        <Certificate Id="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+            <SubjectDistinguishedName Format="CANONICAL">cn=belgium root ca4,c=be</SubjectDistinguishedName>
+            <SubjectDistinguishedName Format="RFC2253">CN=Belgium Root CA4,C=BE</SubjectDistinguishedName>
+            <IssuerDistinguishedName Format="CANONICAL">cn=belgium root ca4,c=be</IssuerDistinguishedName>
+            <IssuerDistinguishedName Format="RFC2253">CN=Belgium Root CA4,C=BE</IssuerDistinguishedName>
+            <SerialNumber>5706940941790920504</SerialNumber>
+            <CommonName>Belgium Root CA4</CommonName>
+            <CountryName>BE</CountryName>
+            <AuthorityInformationAccessUrls/>
+            <CRLDistributionPoints/>
+            <OCSPAccessUrls/>
+            <Sources>
+                <Source>OCSP_RESPONSE</Source>
+                <Source>TRUSTED_LIST</Source>
+            </Sources>
+            <NotAfter>2032-10-22T12:00:00</NotAfter>
+            <NotBefore>2013-06-26T12:00:00</NotBefore>
+            <PublicKeySize>4096</PublicKeySize>
+            <PublicKeyEncryptionAlgo>RSA</PublicKeyEncryptionAlgo>
+            <EntityKey>PK-B1538A9071705A92D938E506B738DA0CAFD1AE66AEC2EEDDC75479D433BD8776</EntityKey>
+            <KeyUsageBits>
+                <KeyUsage>keyCertSign</KeyUsage>
+                <KeyUsage>crlSign</KeyUsage>
+            </KeyUsageBits>
+            <ExtendedKeyUsages/>
+            <IdPkixOcspNoCheck>false</IdPkixOcspNoCheck>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>4096</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <CertificateChain/>
+            <Trusted>true</Trusted>
+            <SelfSigned>true</SelfSigned>
+            <CertificatePolicies>
+                <certificatePolicy cpsUrl="http://repository.eid.belgium.be">2.16.56.12.1.1</certificatePolicy>
+            </CertificatePolicies>
+            <QCStatementIds/>
+            <QCTypes/>
+            <TrustedServiceProviders>
+                <TrustedServiceProvider TL="TL-61C0487109BE27255C19CFF26D8F56BEA621E7F381A7B4CBE7FB4750BD477BF9" LOTL="LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B">
+                    <TSPNames>
+                        <TSPName lang="en">Certipost n.v./s.a.</TSPName>
+                    </TSPNames>
+                    <TSPTradeNames>
+                        <TSPTradeName lang="en">Certipost s.a./n.v.</TSPTradeName>
+                    </TSPTradeNames>
+                    <TSPRegistrationIdentifiers>
+                        <TSPRegistrationIdentifier>VATBE-0475396406</TSPRegistrationIdentifier>
+                    </TSPRegistrationIdentifiers>
+                    <TrustedServices>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</Status>
+                            <StartDate>2016-06-30T22:00:00</StartDate>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                        <TrustedService ServiceDigitalIdentifier="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                            <ServiceNames>
+                                <ServiceName lang="en">CN=Belgium Root CA4, C=BE</ServiceName>
+                            </ServiceNames>
+                            <ServiceType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceType>
+                            <Status>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/undersupervision</Status>
+                            <StartDate>2013-06-26T12:00:00</StartDate>
+                            <EndDate>2016-06-30T22:00:00</EndDate>
+                            <AdditionalServiceInfoUris>
+                                <AdditionalServiceInfoUri>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</AdditionalServiceInfoUri>
+                            </AdditionalServiceInfoUris>
+                        </TrustedService>
+                    </TrustedServices>
+                </TrustedServiceProvider>
+            </TrustedServiceProviders>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>cC3VwaCTzwqdcfrdm/mnxYV9iftztxboZyKLPCvrlo8=</DigestValue>
+            </DigestAlgoAndValue>
+        </Certificate>
+    </UsedCertificates>
+    <UsedRevocations>
+        <Revocation Id="R-75C329C7270B2B49AB18758C37E551E4307D4CA84C35AFED09AEE20C0B0DDFD0">
+            <Origin>EXTERNAL</Origin>
+            <Type>OCSP</Type>
+            <SourceAddress>http://ocsp.eid.belgium.be/2</SourceAddress>
+            <ProductionDate>2021-06-14T12:49:49</ProductionDate>
+            <ThisUpdate>2021-06-14T12:49:49</ThisUpdate>
+            <NextUpdate>2021-06-14T12:50:49</NextUpdate>
+            <CertHashExtensionPresent>false</CertHashExtensionPresent>
+            <CertHashExtensionMatch>false</CertHashExtensionMatch>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>2048</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-1F9F6FF07F0B9DD51F03FAD50C28825888F1157B7C6B6A71CE9F935ED1D4616E"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-1F9F6FF07F0B9DD51F03FAD50C28825888F1157B7C6B6A71CE9F935ED1D4616E"/>
+                <ChainItem Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA"/>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <FoundCertificates>
+                <RelatedCertificate Certificate="C-1F9F6FF07F0B9DD51F03FAD50C28825888F1157B7C6B6A71CE9F935ED1D4616E">
+                    <Origin>BASIC_OCSP_RESP</Origin>
+                    <CertificateRef>
+                        <Origin>SIGNING_CERTIFICATE</Origin>
+                        <SerialInfo>
+                            <IssuerName>C=BE, CN=Belgium OCSP Responder</IssuerName>
+                        </SerialInfo>
+                    </CertificateRef>
+                </RelatedCertificate>
+                <RelatedCertificate Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F">
+                    <Origin>BASIC_OCSP_RESP</Origin>
+                </RelatedCertificate>
+                <RelatedCertificate Certificate="C-293D0BA3A31E5D82A8E3FAE12709932FFDDA44423E0F733FB01EF123E73EB4DA">
+                    <Origin>BASIC_OCSP_RESP</Origin>
+                </RelatedCertificate>
+            </FoundCertificates>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>dcMpxycLK0mrGHWMN+VR5DB9TKhMNa/tCa7iDAsN39A=</DigestValue>
+            </DigestAlgoAndValue>
+        </Revocation>
+        <Revocation Id="R-DC2FFAFB51BA8041828C2C7E58B7AB45BCE81C4916F95892568C523C537F0756">
+            <Origin>CACHED</Origin>
+            <Type>CRL</Type>
+            <ProductionDate>2021-01-01T11:00:00</ProductionDate>
+            <ThisUpdate>2021-01-01T11:00:00</ThisUpdate>
+            <NextUpdate>2021-07-31T11:00:00</NextUpdate>
+            <CertHashExtensionPresent>false</CertHashExtensionPresent>
+            <CertHashExtensionMatch>false</CertHashExtensionMatch>
+            <BasicSignature>
+                <EncryptionAlgoUsedToSignThisToken>RSA</EncryptionAlgoUsedToSignThisToken>
+                <KeyLengthUsedToSignThisToken>4096</KeyLengthUsedToSignThisToken>
+                <DigestAlgoUsedToSignThisToken>SHA256</DigestAlgoUsedToSignThisToken>
+                <SignatureIntact>true</SignatureIntact>
+                <SignatureValid>true</SignatureValid>
+            </BasicSignature>
+            <SigningCertificate Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            <CertificateChain>
+                <ChainItem Certificate="C-702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F"/>
+            </CertificateChain>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>3C/6+1G6gEGCjCx+WLerRbzoHEkW+ViSVoxSPFN/B1Y=</DigestValue>
+            </DigestAlgoAndValue>
+        </Revocation>
+    </UsedRevocations>
+    <UsedTimestamps/>
+    <OriginalDocuments>
+        <SignerData Id="D-A8B2C530A0A1FA6A9394FAE46E4142EE8337EF223EF916D9E645EC63CDEF1774">
+            <ReferencedName>Full PDF</ReferencedName>
+            <DigestAlgoAndValue>
+                <DigestMethod>SHA256</DigestMethod>
+                <DigestValue>1+hrGN0svJMiQySN7c838i+9EVPctkeweUSiI4Kd0OU=</DigestValue>
+            </DigestAlgoAndValue>
+        </SignerData>
+    </OriginalDocuments>
+    <TrustedLists>
+        <TrustedList Id="TL-61C0487109BE27255C19CFF26D8F56BEA621E7F381A7B4CBE7FB4750BD477BF9">
+            <CountryCode>BE</CountryCode>
+            <Url>https://tsl.belgium.be/tsl-be.xml</Url>
+            <SequenceNumber>54</SequenceNumber>
+            <Version>5</Version>
+            <LastLoading>2021-06-14T12:41:28</LastLoading>
+            <IssueDate>2021-05-19T00:00:00</IssueDate>
+            <NextUpdate>2021-11-18T00:00:00</NextUpdate>
+            <WellSigned>true</WellSigned>
+        </TrustedList>
+        <TrustedList Id="LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B" LOTL="true">
+            <CountryCode>EU</CountryCode>
+            <Url>https://ec.europa.eu/tools/lotl/eu-lotl.xml</Url>
+            <SequenceNumber>290</SequenceNumber>
+            <Version>5</Version>
+            <LastLoading>2021-06-14T12:41:28</LastLoading>
+            <IssueDate>2021-05-28T01:00:00</IssueDate>
+            <NextUpdate>2021-11-28T00:00:00</NextUpdate>
+            <WellSigned>true</WellSigned>
+        </TrustedList>
+    </TrustedLists>
+</DiagnosticData>

@@ -1,0 +1,39 @@
+= DSS 5.9 is coming soon...
+ 
+First release candidate should be published in July
+     
+Final version will be delivered in August / September
+     
+===== Main new features / improvements :
+     
+ * Many improvements in the validation :
+ ** much aligned with the ETSI 119 102-1
+ ** more precise / detailed
+ ** user-friendly ids
+ ** Complete extraction and review of QcStatements
+ ** Detailed report (XML/HTML/PDF) will contain error/warning/... messages
+ ** Simple report becomes easier to read
+ *** Errors are dispatched following the origin (qualification / AdES, Signature / Timestamp)
+ * AIASource introduction : more customizations + small breaking change
+ * Customization of revocation collection strategy (OCSP/CRL first)
+ * DocumentBuilderFactory securities
+ * ECDSA / ECDSA-PLAIN support
+ * JAdES (JSON AdES) consolidations
+ * PAdES visual signature refactorings / improvements :
+ ** Image scaling : STRETCH / ZOOM_AND_CENTER / CENTER
+ * Dependency upgrades (Santuario, BouncyCastle, PDFBox,...)
+ * Java 16 support
+
+===== Bug fixes :
+
+* Short term OCSP response
+* On hold certificate
+* Qualification conflict (issuance time / best signing time)
+* ASiC-S can't be timestamped twice
+* PAdES revision extraction
+* PAdES wrong level detection (files with multiple signatures/timestamps)
+* ETSI Validation report : multiple files / references
+
+===== Removed :
+     
+* Support of Bootstrap 3

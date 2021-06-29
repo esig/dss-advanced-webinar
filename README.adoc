@@ -2,7 +2,7 @@
 
 This repository contains the used source code for the DSS Advanced webinar : https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Esignature+DSS+Webinar+June+2021
 
-The webinar was recorded and should be added shortly on this YouTube chanel : https://www.youtube.com/playlist?list=PLPMb0otsCuFJChkw1jlycPqhfbj-9EZe9
+The webinar was recorded and should be added shortly on this YouTube channel : https://www.youtube.com/playlist?list=PLPMb0otsCuFJChkw1jlycPqhfbj-9EZe9
 
 All code samples are based on DSS 5.8.
 
